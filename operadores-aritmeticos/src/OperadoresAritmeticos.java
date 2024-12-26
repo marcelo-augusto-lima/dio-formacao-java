@@ -11,5 +11,19 @@ public class OperadoresAritmeticos {
 
         String nomeCompleto = "Linguagem" + " Java";
         System.out.println(nomeCompleto); // Podemos observar a concatenação de textos
+
+        int numero = 5;
+        numero++; // incremento de + 1, operação por extenso (numero = numero + 1)
+
+        System.out.println(numero);
+
+        boolean verdadeiro = true;
+        System.out.println(!verdadeiro); // Negando a operação, sendo assim vamos imprimir false
+
+        // Operador ternario
+        double nota = 6.0;
+        String resultadoNota = nota >= 6 ? "Aprovado" : "Reprovado";
+
+        System.out.println(resultadoNota);
     }
 }
