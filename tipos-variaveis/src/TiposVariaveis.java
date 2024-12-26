@@ -17,5 +17,11 @@ public class TiposVariaveis {
         
         // Seu valor não podera ser alterado retornando assim um erro
         // VALOR_DE_PI = 10.75;
+
+        String nome = "Marcelo"; // Representa uma cadeia de caracteres
+        char sexo = 'M'; // Representa um unico caracter
+
+        // Representações logicas
+        boolean estudante = true;
     }
 }
